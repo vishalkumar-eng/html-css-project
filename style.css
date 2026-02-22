@@ -1,0 +1,56 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+ul{
+  list-style-type: none;
+  background-color: black;
+  color: white;
+}
+ul li{
+  display: inline-block;
+  padding: 15px;
+}
+ul li:hover{
+  background-color: green;
+  color: white;
+}
+
+ .dropdown{
+  display:none;
+  position: absolute;
+} 
+ul li:hover .dropdown{
+  display: block;
+  position: absolute;
+  margin-left: -0.4cm;
+  margin-top: 0.2cm;
+}
+.dropdown ul li{
+  display: block;
+}
+.dropdown ul{
+  margin: 0px;
+  padding: 0px;
+}
+.course{
+  display: none;
+  position: absolute;
+}
+ div ul li:hover .course{
+    display: block;
+    position: absolute;
+    margin-left: -0.4cm;
+    margin-top:0.2cm ;
+
+  }
+
+.course ul{
+  margin: 0px;
+  padding: 0px;
+
+}
+.course ul li{
+  display: block;
+}
+
